@@ -1,15 +1,12 @@
-# EASY VRECO
-> Desarrollado por: Lucero Hospina y Milagros Palma
+# Easy Vreco
+Easy Vreco es una app original y práctica que muestra tu ubicación actual. Además, traza una ruta cuando indicas un lugar de origen y un lugar de destino.
 
-## Ejercicio Práctico
+ ![Vista web](https://fotos.subefotos.com/5802cd1913cdb5ac29438c40e1f034deo.png)
 
-* **OBJETIVO**: Desarrollar en parejas el ejercicio práctico de **GEOLOCATION**.
+ ## Desarrollado para [Laboratoria](http://laboratoria.la) 
 
-* Desarrollar una página web responsive donde podamos dar instructivos de rutas.
-
-* Emplear el api de geolocalización de **HTML5** y el api de **Google Maps**
-
-* Sobre la **funcionalidad**:
+## Descripción
+Sobre la **funcionalidad**:
 
  1. Insertar un mapa de Google Maps indicando nuestra ubicación actual.
 
@@ -19,9 +16,8 @@
 
  4. Personalizar el marcador por defecto del mapa.
 
- ## Implementación
- ![Vista web](assets/images/desktop.png)
-
  ## Herramientas
  `HTML5` `CSS3` `JavaScript` `Geolocation API` `Google Maps` `Bootstrap`
+
+ ### Desarrollado por Lucero Hospina y Milagros Palma
 
