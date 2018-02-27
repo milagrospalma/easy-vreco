@@ -18,8 +18,6 @@ function initMap() {
     position: center
   });
 
-  // var infoWindow = new google.maps.InfoWindow({map: map});
-
   // geolocalización de HTML5
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function(position) {
@@ -27,15 +25,12 @@ function initMap() {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
-
       marker.setPosition(pos);
-      // infoWindow.setContent('Location found.');
       map.setCenter(pos);
     }, function() {
       handleLocationError(true, marker, map.getCenter());
     });
   } else {
-    // Browser doesn't support Geolocation
     handleLocationError(false, marker, map.getCenter());
   }
 
